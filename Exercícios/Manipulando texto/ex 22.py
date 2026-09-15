@@ -6,7 +6,7 @@
 
 # > Quantas letras tem o primeiro nome.
 
-nome = input("Digite um nome: ") 
+nome = input("Digite um nome: ").strip()
 
 print(nome.upper())
 print(nome.lower())
