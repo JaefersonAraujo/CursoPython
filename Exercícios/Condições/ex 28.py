@@ -12,9 +12,9 @@ print("Processando...")
 sleep(2) # pausa o programa por determinado tempo
 
 if jogador == pc:
-    print("Voçê ganhou!!")
+    print("Você ganhou!!")
 else:
-    print(f"Voçê perdeu amigo pensei no número {pc}:)")
+    print(f"Você perdeu amigo pensei no número {pc}:)")
 
 
 

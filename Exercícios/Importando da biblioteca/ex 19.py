@@ -2,9 +2,9 @@
 
 import random
 
-print('='*8,"Sortei bolsa estudante",'='*8)
+print('='*8,"Sorteio bolsa estudante",'='*8)
 
-a1 = input("Pimeiro aluno: ")
+a1 = input("Primeiro aluno: ")
 a2 = input("Segundo aluno: ")
 a3 = input("Terceiro aluno: ")
 a4 = input("Quarto aluno: ")
