@@ -32,5 +32,6 @@ elif 30 < imc < 40:
 else:
     print("Obesidade mórbida")
     
+    
 
 
