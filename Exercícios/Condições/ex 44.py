@@ -32,10 +32,11 @@ elif op == 3:
 elif op == 4:
     total = preco + (preco * 20 / 100)
     totalparc = int(input("Em quantas vezes desejar parcelar? "))
+    
     while totalparc <= 2:
         totalparc = int(input("Digite novamente: "))
-    else:
-        parc = total / totalparc
+    
+    parc = total / totalparc
     print(f"A compra parcelada em {totalparc} x de R$ {parc:.2f} ficou com o valor final de R$ {total:.2f} com juros.")
 else:
     print("Forma de pagamento inválida, tente novamente.")
